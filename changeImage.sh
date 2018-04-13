@@ -1,7 +1,7 @@
 #!/bin/bash
 while :
 do
-	wget -O /tmp/belh.png https://i.imgur.com/cXhUqav.png
+	wget -O /tmp/belh.png https://i.imgur.com/IaBKWma.png
 	sleep 4
 	killall feh
 	export DISPLAY=:0 
