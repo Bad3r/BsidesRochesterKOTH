@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 mytty=$(tty | awk -F "/" '{print $4}')
 echo my tty $mytty
 for i in {1..30}

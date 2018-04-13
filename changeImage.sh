@@ -6,5 +6,4 @@ do
 	killall feh
 	export DISPLAY=:0 
 	feh -F /tmp/belh.png &
-	sleep 310
 done
