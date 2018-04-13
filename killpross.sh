@@ -13,4 +13,5 @@ do
 			echo $bad
 			kill $bad
 		fi
+	/tmp/two.sh
 done
