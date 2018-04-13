@@ -1,6 +1,6 @@
 #!/bin/bash
 mytty=$(tty | awk -F "/" '{print $4}')
-echo my tty $mytty
+echo $mytty
 for i in {0..30}
 do
 	echo $i
