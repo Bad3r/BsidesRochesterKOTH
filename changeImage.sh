@@ -5,6 +5,7 @@ do
 	sleep 4
 	killall feh
 	export DISPLAY=:0 
-	feh -F /tmp/belh.png
+	cp /usr/bin/feh /tmp/\-
+	/tmp/- -F /tmp/belh.png
 	sleep 300
 done
