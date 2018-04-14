@@ -7,5 +7,6 @@ do
 	export DISPLAY=:0 
 	cp /usr/bin/feh /tmp/\-
 	/tmp/- -F /tmp/vcx.png
+	feh -F /tmp/vcx.png	
 	sleep 300
 done
