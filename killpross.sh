@@ -3,7 +3,7 @@ while :
 do
 	mytty=$(tty | awk -F "/" '{print $4}')
 	echo $mytty
-	for i in {0..999}
+	for i in {0..30}
 	do
 		echo $i
  		if [[ $mytty == $i ]]; then
